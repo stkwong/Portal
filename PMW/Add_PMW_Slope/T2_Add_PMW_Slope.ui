@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>133</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="T2_Add_PMW_Add_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add and Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T2_Add_PMW_clear_but">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>100</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="T2_Add_PMW_Feature_le">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Feature No.</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="T2_Add_PMW_Package_le">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Package (e.g. 20/21 Package 1)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T2_Add_PMW_Return_but">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>100</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="T2_Add_PMW_Location_le">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Location</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>T2_Add_PMW_Package_le</tabstop>
+  <tabstop>T2_Add_PMW_Feature_le</tabstop>
+  <tabstop>T2_Add_PMW_Location_le</tabstop>
+  <tabstop>T2_Add_PMW_Add_but</tabstop>
+  <tabstop>T2_Add_PMW_clear_but</tabstop>
+  <tabstop>T2_Add_PMW_Return_but</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

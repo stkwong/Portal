@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1028</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="T3_Apply_Return_but">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>380</y>
+     <width>201</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return STLA App Selection Page</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Execute_but">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Execute</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>501</width>
+     <height>152</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>My Phone</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Our_File_Ref</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Phone_le"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Our_File_Ref"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>My_Email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Email_le"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Fax_le"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>My Fax</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Date_le"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_For_le"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>For</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>491</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="1">
+     <widget class="QComboBox" name="T3_Apply_Recipient_Fax_com"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_41">
+      <property name="text">
+       <string>Recipient_File_Ref_A</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Total_Page_le"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_29">
+      <property name="text">
+       <string>Recipient_File_Ref_B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_38">
+      <property name="text">
+       <string>Recipient</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_34">
+      <property name="text">
+       <string>Attention</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_26">
+      <property name="text">
+       <string>Recipient_Fax</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="T3_Apply_Recipient_com"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_32">
+      <property name="text">
+       <string>Recipient_File_Ref_Date</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Recipient_File_Ref_A_le"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Recipient_File_Ref_B_le"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_27">
+      <property name="text">
+       <string>Total Page</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Recipient_File_Ref_Date_le"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="T3_Apply_Atention_com"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QRadioButton" name="T3_Apply_with_Encl_rad">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>83</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Yes</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="T3_Apply_without_Encl_rad">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>0</y>
+         <width>83</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>No</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_28">
+      <property name="text">
+       <string>Encl</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>230</y>
+     <width>491</width>
+     <height>204</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Senior_Initial_le"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Officer_cc_le"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_37">
+      <property name="text">
+       <string>c.c Officer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="T3_Apply_file_thro_le"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Initial_le"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_36">
+      <property name="text">
+       <string>File Thro</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Initial_s_le"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_33">
+      <property name="text">
+       <string>My_Inital</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="T3_Apply_My_Name_le"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_24">
+      <property name="text">
+       <string>My_Initial_s</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Feature_cc_le"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_30">
+      <property name="text">
+       <string>My_Senior_Initial</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_35">
+      <property name="text">
+       <string>My_Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_25">
+      <property name="text">
+       <string>c.c Feature</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>501</width>
+     <height>152</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_42">
+      <property name="text">
+       <string>Request Approve</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Tentative_Start_Date_le"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Feature_No_le"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Package No.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>Feature No.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Request_Approve_Date_le"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Package_No_le"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_31">
+      <property name="text">
+       <string>Tentative Start</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_40">
+      <property name="text">
+       <string>Tentative End</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Tentative_End_Date_le"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Location_le"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Location</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>501</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>Docu_Title</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="T3_Apply_Docu_Title_le"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Add_Slope_but">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>440</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Slope</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Add_Attention_but">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>440</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Attention</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Add_CC_but">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>440</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add c.c list</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Add_File_Thro_but">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>440</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add file thro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Add_CCF_but">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add c.c.f list</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T3_Apply_Reload_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>430</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Re-load</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>T3_Apply_My_Phone_le</tabstop>
+  <tabstop>T3_Apply_My_Fax_le</tabstop>
+  <tabstop>T3_Apply_My_Email_le</tabstop>
+  <tabstop>T3_Apply_Our_File_Ref</tabstop>
+  <tabstop>T3_Apply_Date_le</tabstop>
+  <tabstop>T3_Apply_Execute_but</tabstop>
+  <tabstop>T3_Apply_Return_but</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

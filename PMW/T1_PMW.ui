@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1469</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="T1_PMW_Print_Table_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Print PMW Summary Table</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="T1_Entrust_table">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>1451</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Feature No.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>AW Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Contact Person</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Contact Post</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Contact No.</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="T1_PMW_home_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>670</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T1_PMW_Entrust_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>630</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Print Entrustment Summary Table</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T1_PMW_Refresh_but">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>480</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T1_PMW_Insert_but">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>480</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Insert Slope</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="T1_PMW_table">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1451</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Package</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Feature No.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Location</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Exp date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NDC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Future Dev</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA App</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Approve date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Ext App date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SMS01Part1_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Design_Com_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VO_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SMS01Part2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TO_Issue_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Completion_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

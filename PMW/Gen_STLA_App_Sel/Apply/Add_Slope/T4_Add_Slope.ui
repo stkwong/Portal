@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1113</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="T4_Add_Slope_return_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="T4_Add_Slope_table">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1101</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Package</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Feature No.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Location</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Exp date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NDC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Future Dev</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA App</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>STLA Ext App date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

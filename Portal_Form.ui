@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1555</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="setup_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setup</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pmw_but">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PMW</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="consult_but">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Consultancy</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="corres_but">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Correspondence</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="case_hist_but">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Case History</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="yr_le">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>20</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mth_le">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>20</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="d_le">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>20</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_but">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1561</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Click to Commence</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="outgoing_table">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>1541</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Identity1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Identity2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Recipient</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>T1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>T2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>T3</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>T4</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>File_Ref</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Path</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="refresh_but">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>30</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </widget>
+  <zorder>setup_but</zorder>
+  <zorder>pmw_but</zorder>
+  <zorder>consult_but</zorder>
+  <zorder>corres_but</zorder>
+  <zorder>case_hist_but</zorder>
+  <zorder>yr_le</zorder>
+  <zorder>mth_le</zorder>
+  <zorder>d_le</zorder>
+  <zorder>outgoing_table</zorder>
+  <zorder>refresh_but</zorder>
+  <zorder>start_but</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
